@@ -1,5 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import 'semantic-ui-css/semantic.min.css';
 import Home from "./pages/Home";
 import Unit from "./pages/Unit";
 import Static from "./pages/Static"
@@ -8,7 +10,7 @@ import Nav from "./components/Nav"
 function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
         <Nav />
         <Switch>
           <Route exact path="/" component={ Home } />

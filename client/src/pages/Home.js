@@ -1,8 +1,13 @@
 import React from "react";
+import { Container } from 'semantic-ui-react'
 
 const Home = () => {
     return(
-        <div className="container"></div>
+        <Container>
+            <p>
+                A collection of useful tools for a variety of engineering projects, problems, and general curiosity.
+            </p>
+        </Container>
     )
 }
 
