@@ -50,6 +50,8 @@ export function massConversions(from, to, num) {
                     newNum = num * 907.185
             }
             break;
+        default:
+            newNum = num
     }
     
     return newNum
